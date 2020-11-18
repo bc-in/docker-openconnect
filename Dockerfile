@@ -58,7 +58,7 @@ ADD ocserv /etc/default/ocserv
 WORKDIR /config
 
 COPY docker-entrypoint.sh /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["bash", "/entrypoint.sh"]
 
 EXPOSE 4443
 EXPOSE 4443/udp
