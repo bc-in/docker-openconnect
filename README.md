@@ -135,7 +135,7 @@ To build this container, clone the repository and cd into it.
 ### Build it:
 ```
 $ cd /repo/location/openconnect
-$ docker build -t openconnect:1.1.1 .
+$ docker build -t openconnect:0.11.10 .
 ```
 ### Run it:
 ```
